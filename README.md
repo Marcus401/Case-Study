@@ -1,2 +1,2 @@
 # Case-Study
-React-Tailwind-Springboot-NoSQL
+React-Tailwind-Springboot-MS SQL
