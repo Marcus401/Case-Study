@@ -1,0 +1,86 @@
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #4e2929;
+    border-radius: 5px;
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.text {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.underline {
+    width: 50px;
+    height: 2px;
+    background-color: #333;
+    margin: 0 auto;
+}
+
+.inputs {
+    margin-bottom: 20px;
+}
+
+.input {
+    margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: calc(100% - 30px);
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.forgot-password {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.submit-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.submit {
+    width: 48%;
+    padding: 10px;
+    text-align: center;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.submit:hover {
+    background-color: #0056b3;
+}
+
+.bottom-links {
+    text-align: center;
+}
+
+.sign-up-link,
+.login-link {
+    margin-top: 10px;
+}
+
+.sign-up-link span,
+.login-link span {
+    color: #007bff;
+    cursor: pointer;
+}
+
+.sign-up-link span:hover,
+.login-link span:hover {
+    text-decoration: underline;
+}
