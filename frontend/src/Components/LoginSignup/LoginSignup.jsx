@@ -1,35 +1,46 @@
 import React from 'react'
 import './LoginSignup.css'
 
-import user_icon from '../Assets/user.png'
-import email_icon from '../Assets/email.png'
-import password_icon from '../Assets/password.png'
+
 const LoginSignup = () => {
   return (
     
-    <div className='container'>
-    <div className="header">
-        <div className="text">Sign Up</div>
-        <div className="underline"></div>   
+    <div class='container'>
+    <div class="header">
+        <div class="text">Sign Up</div>
+        <div class="underline"></div>   
     </div>
-    <div className="inputs">
-        <div className="input">
-            <img src="" alt="" />
-            <input type="text" placeholder="Username" />
-        </div>
-        <div className="input">
-            <img src="" alt="" />
-            <input type="email" placeholder="Email" />
-        </div> 
-        <div className="input">
-            <img src="" alt="" />
-            <input type="password" placeholder="Password" />
+    <div class="inputs">
+        <div class="input-group">
+            <div class="input">
+                <input type="text" placeholder="Last Name" id="lastname" />
+            </div>
+            <div class="input">
+                <input type="text" placeholder="First Name" id="firstname" />
+            </div>
+            <div class="input">
+                <input type="text" placeholder="Middle Name" id="middlename" />
+            </div>
+            <div class="input">
+                <input type="date" placeholder="Birthdate" id="birthdate" />
+            </div>
+            <div class="input">
+                <input type="text" placeholder="Username" id="username" />
+            </div>
+            <div class="input">
+                <input type="email" placeholder="Email" id="email" />
+            </div> 
+            <div class="input">
+                <input type="password" placeholder="Password" id="password" />
+            </div>
+            <div class="input">
+                <input type="password" placeholder="Confirm Password" id="confirm-password" />
+            </div>
         </div>
     </div>
-    <div className="forgot-password">Lost Password? <span>Click Here!</span></div>
-    <div className="submit-container">
-        <div className="submit">Sign Up</div>
-        <div className="submit">Login</div>
+    <div class="submit-container">
+        <div class="submit" onclick="submitSignUp()">Sign Up</div>
+        <div class="submit" onclick="toggleLoginForm()">Login</div>
     </div>
 </div>
 
